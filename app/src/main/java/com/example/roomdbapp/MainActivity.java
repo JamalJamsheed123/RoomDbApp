@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        t1=findViewById(R.id.t1);
-        t2=findViewById(R.id.t2);
-        t3=findViewById(R.id.t3);
+        t1=findViewById(R.id.id);
+        t2=findViewById(R.id.name);
+        t3=findViewById(R.id.email);
 
-        b1=findViewById(R.id.b1);
-        b2=findViewById(R.id.b2);
-        lbl=findViewById(R.id.lbl);
+        b1=findViewById(R.id.save);
+        b2=findViewById(R.id.fetchdata);
+        lbl=findViewById(R.id.message);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

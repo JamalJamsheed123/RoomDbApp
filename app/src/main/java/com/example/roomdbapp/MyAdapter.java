@@ -79,8 +79,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.myviewholder>
             super(itemView);
 
             recid=itemView.findViewById(R.id.recid);
-            recfname=itemView.findViewById(R.id.recfname);
-            reclname=itemView.findViewById(R.id.reclname);
+            recfname=itemView.findViewById(R.id.recname);
+            reclname=itemView.findViewById(R.id.recemail);
             delbtn=itemView.findViewById(R.id.delbtn);
             edbtn=itemView.findViewById(R.id.edbtn);
         }

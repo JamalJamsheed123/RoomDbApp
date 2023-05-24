@@ -12,28 +12,28 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:id="@+id/t1"
-        android:hint="Record ID"/>
+        android:id="@+id/id"
+        android:hint="User ID"/>
 
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:id="@+id/t2"
+        android:id="@+id/name"
         android:layout_marginTop="30dp"
-        android:hint="First Name"/>
+        android:hint="Name"/>
 
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:id="@+id/t3"
+        android:id="@+id/email"
         android:layout_marginTop="30dp"
-        android:hint="Second Name"/>
+        android:hint="Email"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save to Room"
-        android:id="@+id/b1"
+        android:id="@+id/save"
         android:padding="10dp"
         android:layout_marginTop="30dp"/>
 
@@ -41,14 +41,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fetch Data"
-        android:id="@+id/b2"
+        android:id="@+id/fetchdata"
         android:padding="10dp"
         android:layout_marginTop="30dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lbl"
+        android:id="@+id/message"
         android:layout_marginTop="20dp"
         android:text=""/>
 

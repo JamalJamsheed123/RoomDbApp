@@ -21,8 +21,8 @@ public class UpdateData extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_data);
 
-        fname=findViewById(R.id.editfname);
-        lname=findViewById(R.id.editlname);
+        fname=findViewById(R.id.editname);
+        lname=findViewById(R.id.editemail);
         btn=findViewById(R.id.btn);
 
         uid=Integer.parseInt(getIntent().getStringExtra("uid"));
